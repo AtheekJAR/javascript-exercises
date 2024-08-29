@@ -26,8 +26,8 @@ const power = function(number, toThePower) {
   return answer;
 };
 
-const factorial = function() {
-	
+const factorial = function(n) {
+	return n === 0 ? 1 : n * factorial(n-1);
 };
 
 // Do not edit below this line
